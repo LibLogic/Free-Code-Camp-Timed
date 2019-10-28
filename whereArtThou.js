@@ -1,6 +1,5 @@
 function whatIsInAName(collection, source) {
   let arr = [];
-
   collection.forEach((collObj, i) => {
     let flag = true;
     for (let sourceKey in source) {
@@ -8,9 +7,7 @@ function whatIsInAName(collection, source) {
         flag = false;
       }
     }
-    //console.log(collObj[sourceKey], source[sourceKey], flag);
     if (flag === true) {
-      // console.log("got in");
       arr.push(collection[i]);
     }
   });

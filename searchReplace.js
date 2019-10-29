@@ -8,7 +8,7 @@ function myReplace(str, before, after) {
 }
 
 console.log(
-  myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped")
+  myReplace("A quick brown fox Jumped over the lazy dog", "Jumped", "leaped")
 );
 
 // 90 mins

@@ -4,7 +4,7 @@ function myReplace(str, before, after) {
     let rest = after.substring(1);
     after = `${letter}${rest}`;
   }
-  return str.replace(before.toLowerCase(), after);
+  return str.replace(before, after);
 }
 
 console.log(

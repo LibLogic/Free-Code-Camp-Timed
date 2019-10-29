@@ -13,4 +13,4 @@ console.log(
 
 // 90 mins
 // misunderstood the nature of the problem, was overcomplicating it
-// then I was trying to directly change element[0] of a string, but this wont work since strings are immutible
+// then I was trying to directly change element[0] of a string, but this wont work since strings are immutable

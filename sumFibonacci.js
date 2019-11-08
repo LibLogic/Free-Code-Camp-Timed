@@ -19,3 +19,6 @@ function sumFibs(num) {
 console.log(sumFibs(10));
 
 // 22 mins    .......proud of this one
+
+// actually there is a better solution that doesn't use an array.
+// the array adds some unnecessary (space comlexity?)
